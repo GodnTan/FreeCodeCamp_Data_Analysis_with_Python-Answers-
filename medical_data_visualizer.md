@@ -54,3 +54,7 @@ We imported the tests from `test_module.py` to `main.py` for your convenience. T
 ### Submitting
 
 Copy your project's URL and submit it to freeCodeCamp.
+
+![catplot](https://github.com/GodnTan/FreeCodeCamp_Data_Analysis_with_Python-Answers-/assets/137321712/c79eafb6-9717-46ec-aee8-be57ee118abf)
+
+![heatmap](https://github.com/GodnTan/FreeCodeCamp_Data_Analysis_with_Python-Answers-/assets/137321712/c5afc3e3-41b0-4aa1-8448-44f9d7d25c1c)
