@@ -53,15 +53,19 @@ def draw_heat_map():
     corr = df_heat.corr()
 
 
-    # Generate a mask for the upper triangle
+    # Generate a mask for the upper triangle to hide redundant information since the correlation matrix is symmetrical along its diagonal
     mask = np.triu(corr)
 
     # Set up the matplotlib figure
     fig, ax = plt.subplots()
 
     # Draw the heatmap with 'sns.heatmap()'
-    ax = sns.heatmap(corr, mask=mask, annot=True, fmt='0.1f', square=True)
-    plt.show()
+    ax = sns.heatmap(corr, mask=mask, annot=True, fmt='0.1f', square=True) 
+    plt.show() 
+    #the values represent the strength and direction of the linear relationship between pairs of variables.
+    #make it easier to interpret the correlation strengths visually. 
+    #In this code snippet, the annot=True parameter in sns.heatmap() ensures that the correlation values are displayed in each cell of the heatmap. 
+    #The fmt='0.1f' parameter specifies that the values should be formatted to one decimal place.
 
 
     # Do not modify the next two lines
